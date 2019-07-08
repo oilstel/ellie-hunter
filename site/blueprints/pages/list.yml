@@ -1,0 +1,19 @@
+title: List
+
+columns:
+  main:
+    sections:
+      content:
+        type: fields
+        fields:
+          text_color:
+            label: Text Color
+            type: color
+            editableAlpha: false # (optional) if set to false, alpha value controls are not displayed
+            default: "rgb(60, 32, 99)"
+          bg_color:
+            label: Background Color
+            type: color
+            editableAlpha: false # (optional) if set to false, alpha value controls are not displayed
+            default: "rgb(196, 196, 196)"
+

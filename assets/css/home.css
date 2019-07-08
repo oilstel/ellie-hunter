@@ -1,0 +1,22 @@
+body {
+    /* overflow: hidden; */
+}
+
+@media(max-width: 700px) {
+    .drawing-container { 
+        /* overflow-x: hidden !important; 
+        overflow-y: hidden !important; */
+        position: fixed;
+        top: 50px;
+        left: 0;
+        height: 100%;
+        margin: 0;
+    }
+    .drawing-container svg {
+        margin-top: -100px;
+    }
+    /* .drawing-container {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+    } */
+}
