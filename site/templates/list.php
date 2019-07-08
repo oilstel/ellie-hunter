@@ -3,14 +3,15 @@
 <main id="archive-full">
 
 <table id="archive" cellpadding="0" role="grid">
-    <!-- <thead>
+    <thead>
       <tr role="row" class="tablesorter-headerRow">
         <th data-column="0"><div class="dot"></div></th>
         <th data-column="0">title</th>
         <th data-column="0">place</th>
+        <th data-column="0">type</th>
         <th data-column="0">year</th>
       </tr>
-    </thead> -->
+    </thead>
     <tbody aria-live="polite" aria-relevant="all">
         <?php foreach($site->children()->listed() as $item): ?>
         <?php if ($item->isHomePage() || $item->id() == 'archive'): ?>
