@@ -63,6 +63,9 @@
         .active {
           background: <?php echo $page->text_color() ?>;
         }
+        #archive tr td {
+          border-color: <?php echo $page->text_color() ?>;
+        }
     </style>
 </head>
 <body>

@@ -35,16 +35,14 @@ nav a:hover {
 }
 
 #home {
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 #home img {
-    width: auto;
-}
-
-#home img {
-    height: 60vh;
+    max-height: 80vh;
     width: auto !important;
+    max-width: 100% !important;
+    /* width: 100% !important; */
 }
 
 .subpages-wrapper {
@@ -204,16 +202,21 @@ ul li {
 }
 
 .moving-text svg {
-    margin-top: 00px;
-    margin-left: 00px;
     position: fixed;
-    top: 0;
+    top: 100px;
     left: 0;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
 }
+
+#testPath {
+    margin-top: -1000px;
+    margin-left: -2000px;
+    fill: #000;
+}
+
 .drawing-text {
     fill: rgb(87, 62, 125);
     font-size: 18px;
@@ -251,7 +254,8 @@ ul li {
 }
 
 #archive tr td {
-    /* padding: 0.74em; */
+    padding: 8px 0 8px 0;
+    border-bottom: 1px double #000;
 }
 
 #archive thead tr th {
@@ -296,3 +300,14 @@ ul li {
         width: 100%;
     }
 }
+
+@media (max-width: 600px) {
+    nav a, main p a::before, .dot {
+        width: 15px;
+        height: 15px;
+    }
+    .type {
+        display: none;
+    }
+}
+

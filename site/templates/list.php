@@ -20,7 +20,7 @@
               <td><a href="<?php echo $item->url() ?>" class="dot" style="background-color: <?php echo $item->bg_color() ?>; border-color:<?php echo $item->text_color() ?>;"></a></td>
               <td><a href="<?php echo $item->url() ?>"><?php echo $item->title() ?></a></td>
               <td><?php echo $item->place() ?></td>
-              <td><?php echo $item->type() ?></td>
+              <td class="type"><?php echo $item->type() ?></td>
               <td><?php echo $item->year() ?></td>
           </tr>
           <?php endif ?>
