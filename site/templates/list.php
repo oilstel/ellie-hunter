@@ -8,7 +8,7 @@
         <th data-column="0"><div class="dot"></div></th>
         <th data-column="0">title</th>
         <th data-column="0">place</th>
-        <th data-column="0">type</th>
+        <th data-column="0" class="type">type</th>
         <th data-column="0">year</th>
       </tr>
     </thead>
