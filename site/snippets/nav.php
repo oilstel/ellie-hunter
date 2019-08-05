@@ -2,9 +2,9 @@
 <?php else: ?>
 <nav>
 <?php foreach($site->children()->listed()->filterBy('template', 'in', ['home', 'default'])->limit(8) as $item): ?>
-    <a <?php e($item->isActive(), ' class="active"') ?> href="<?php echo $item->url() ?>" style="border-color:<?php echo $item->text_color() ?>;"></a>
+    <a <?php e($item->isActive(), ' class="active"') ?> href="<?php echo $item->url() ?>"></a>
 <?php endforeach ?>
 <? $archive = site()->children()->find('archive') ?>
-<a <?php if ($page->id() == 'archive'): ?>class="active"<?php endif ?> href="<?php echo $archive->url() ?>" style="border-color:<?php echo $archive->text_color() ?>;"></a>
+<a <?php if ($page->id() == 'archive'): ?>class="active"<?php endif ?> href="<?php echo $archive->url() ?>"></a>
 </nav>
 <?php endif ?>
