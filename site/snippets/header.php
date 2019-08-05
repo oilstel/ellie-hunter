@@ -55,12 +55,11 @@
           border-bottom: 1px solid <?php echo $page->text_color() ?>;
         }
         nav a:hover {
-          border: 1px solid <?php echo $page->text_color() ?>;
-          background: <?php echo $page->text_color() ?>;
+          border: 1px solid;
         }
         h1 {
         }
-        .active {
+        .active, .active:hover {
           background: <?php echo $page->text_color() ?>;
         }
         #archive tr td {

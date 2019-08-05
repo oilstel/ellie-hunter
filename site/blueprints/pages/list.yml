@@ -6,6 +6,10 @@ columns:
       content:
         type: fields
         fields:
+          text:
+            label: Text
+            type: textarea
+            size: large
           text_color:
             label: Text Color
             type: color

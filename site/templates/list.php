@@ -2,7 +2,20 @@
 
 <main id="archive-full">
 
+<h1><?= $page->title() ?></h1>
+
+<div class="text">
+  <?= $page->text()->kt() ?>
+</div>
+
+<br /><br />
+
+<hr style="border: none; border-top: 1px solid <?php echo $page->text_color() ?>; margin-bottom: 1em;" />
+
+
 <table id="archive" cellpadding="0" role="grid">
+
+
     <thead>
       <tr role="row" class="tablesorter-headerRow">
         <th data-column="0"><div class="dot"></div></th>
