@@ -45,7 +45,7 @@
           background-color: <?php echo $page->text_color() ?>;
         }
         main p a {
-          margin-right: 10px;
+          /* margin-right: 10px; */
           border: 1px solid <?php echo $page->text_color() ?>;
         }
         .drawing-text {
