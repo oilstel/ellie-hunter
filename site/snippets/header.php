@@ -46,6 +46,7 @@
         }
         main p a {
           margin-right: 10px;
+          border: 1px solid <?php echo $page->text_color() ?>;
         }
         .drawing-text {
           fill: <?php echo $page->text_color() ?> !important;

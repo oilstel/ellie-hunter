@@ -155,7 +155,7 @@ main {
     display: block;
 } */
 
-main p a::before {
+/* main p a::before {
     border: 1px solid;
     content: '';
     display: inline-block;
@@ -163,15 +163,15 @@ main p a::before {
     height: 10px;
     border-radius: 100%;
     margin-right: 5px;
-}
+} */
 
 p a {
     color: rgb(87, 62, 125);
     text-decoration: none;
     word-break: break-all;
-    /* border-radius: 6px;
-    padding: 3px;
-    display: inline-block; */
+    border-radius: 6px;
+    padding: 0 3px 0;
+    display: inline-block;
 }
 
 ul li {
