@@ -150,10 +150,10 @@ main {
     line-height: 25px;
 }
 
-main br {
+/* main br {
     margin-bottom: 1em;
     display: block;
-}
+} */
 
 main p a::before {
     border: 1px solid;
