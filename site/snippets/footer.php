@@ -22,5 +22,7 @@
 <?= js(['assets/js/footer.js', '@auto']) ?>
 <?php endif ?>
 
+<?php snippet('google_analytics') ?>
+
 </body>
 </html>
