@@ -23,6 +23,10 @@ columns:
             multiple: false
             max: 1
             layout: cards
+          seo_description:
+            label: Search Description
+            type: text
+            size: medium
   sidebar:
     width: 1/3
     sections:

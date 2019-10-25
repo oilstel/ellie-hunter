@@ -20,4 +20,8 @@ columns:
             type: color
             editableAlpha: false # (optional) if set to false, alpha value controls are not displayed
             default: "rgb(196, 196, 196)"
+          seo_description:
+            label: Search Description
+            type: text
+            size: medium
 

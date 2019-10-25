@@ -11,6 +11,10 @@ columns:
             label: Text
             type: textarea
             size: large
+          seo_description:
+            label: Search Description
+            type: text
+            size: medium
   sidebar:
     width: 1/3
     sections:
