@@ -1,0 +1,7 @@
+type: pages
+headline: Pages
+info: "{{ page.date.toDate('d.m.Y') }}"
+template:
+  - default
+  - archive
+empty: Nothing here

@@ -1,3 +1,12 @@
 title: Site
-preset: pages
+# preset: pages
 unlisted: true
+sections:
+  drafts:
+    extends: sections/pages
+    headline: Drafts
+    status: draft
+  published:
+    extends: sections/pages
+    headline: Published
+    status: published
