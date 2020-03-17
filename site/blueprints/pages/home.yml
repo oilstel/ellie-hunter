@@ -46,6 +46,14 @@ columns:
             type: color
             editableAlpha: false # (optional) if set to false, alpha value controls are not displayed
             default: "rgb(196, 196, 196)"
+          favicon:
+            headline: Cover
+            template: cover
+            type: files
+            query: page.images
+            multiple: false
+            max: 1
+            layout: cards
           show_moving_text:
             label: Show Text
             type: toggle
