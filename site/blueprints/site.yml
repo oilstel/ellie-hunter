@@ -2,11 +2,20 @@ title: Site
 # preset: pages
 unlisted: true
 sections:
-  drafts:
-    extends: sections/pages
-    headline: Drafts
-    status: draft
-  published:
-    extends: sections/pages
-    headline: Published
-    status: published
+  episodes:
+    headline: Main
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - home
+      - archive
+  projects:
+    headline: Projects
+    type: pages
+    status: all
+    info: "{{ page.intendedTemplate }}"
+    image: false
+    templates:
+      - default
